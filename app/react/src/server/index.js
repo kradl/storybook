@@ -3,6 +3,7 @@ import path from 'path';
 import packageJson from '../../package.json';
 import getBaseConfig from './config/webpack.config';
 import loadConfig from './config';
+import './middleware';
 
 buildDev({
   packageJson,
